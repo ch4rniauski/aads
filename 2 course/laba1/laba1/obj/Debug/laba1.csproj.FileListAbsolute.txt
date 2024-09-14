@@ -1,0 +1,14 @@
+D:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.exe.config
+D:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.exe
+D:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.pdb
+D:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.csproj.AssemblyReference.cache
+D:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.csproj.CoreCompileInputs.cache
+D:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.exe
+D:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.pdb
+C:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.exe.config
+C:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.exe
+C:\university\aads\2 course\laba1\laba1\bin\Debug\laba1.pdb
+C:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.csproj.AssemblyReference.cache
+C:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.csproj.CoreCompileInputs.cache
+C:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.exe
+C:\university\aads\2 course\laba1\laba1\obj\Debug\laba1.pdb
