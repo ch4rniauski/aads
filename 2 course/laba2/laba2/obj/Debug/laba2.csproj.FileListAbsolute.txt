@@ -1,0 +1,7 @@
+C:\university\aads\2 course\laba2\laba2\laba2\bin\Debug\laba2.exe.config
+C:\university\aads\2 course\laba2\laba2\laba2\bin\Debug\laba2.exe
+C:\university\aads\2 course\laba2\laba2\laba2\bin\Debug\laba2.pdb
+C:\university\aads\2 course\laba2\laba2\laba2\obj\Debug\laba2.csproj.AssemblyReference.cache
+C:\university\aads\2 course\laba2\laba2\laba2\obj\Debug\laba2.csproj.CoreCompileInputs.cache
+C:\university\aads\2 course\laba2\laba2\laba2\obj\Debug\laba2.exe
+C:\university\aads\2 course\laba2\laba2\laba2\obj\Debug\laba2.pdb
