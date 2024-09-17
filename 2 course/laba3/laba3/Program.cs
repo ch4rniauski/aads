@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace laba3
 {
@@ -17,6 +16,25 @@ namespace laba3
                 hashTable = AddToHashTable(hashTable, ch);
 
             PrintHashTable(hashTable);
+
+            while (true)
+            {
+                Console.Write("Введите символ, который хотите найти: ");
+
+                str = Console.ReadLine();
+                
+                if (str.Length > 1)
+                {
+                    Console.WriteLine("Ошибка: введите 1 символ\n");
+                    continue;
+                }
+
+                if (HashTableContains(Convert.ToChar(str), hashTable))
+                    Console.WriteLine("Данный символ ИМЕЕТСЯ в введенной строке\n");
+
+                else
+                    Console.WriteLine("Данного символа НЕТ в введенной строке\n");
+            }
         }
 
         class HashElement
@@ -103,6 +121,7 @@ namespace laba3
                 Console.WriteLine($"Буква: {hashElement.Symbol}. Количество вхождений: {hashElement.Amount}");
             }
 
+            Console.WriteLine();
         }
     }
 }
