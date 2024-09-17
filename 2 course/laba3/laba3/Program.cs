@@ -33,12 +33,17 @@ namespace laba3
 
         static int HashCode(char ch)
         {
-            return (int)ch * 49 / 100;
+            return (int)ch;
+        }
+
+        static int GetIndex(char ch, int length)
+        {
+            return HashCode(ch) % length;
         }
 
         static bool HashTableContains(char ch, HashElement[] hashTable)
         {
-            int bucket = HashCode(ch) % hashTable.Length;
+            int bucket = GetIndex(ch, hashTable.Length);
 
             if (hashTable[bucket] != null && hashTable[bucket].Symbol == ch)
                 return true;
@@ -50,19 +55,23 @@ namespace laba3
         {
             if (HashTableContains(ch, hashTable))
             {
-                int bucket = HashCode(ch) % hashTable.Length;
+                int bucket = GetIndex(ch, hashTable.Length);
 
                 hashTable[bucket].Amount++;
             }
 
             else
             {
-                if (hashTable[HashCode(ch) % hashTable.Length] != null)
+                if (hashTable[GetIndex(ch, hashTable.Length)] != null)
                     hashTable = IncreaseHashtable(hashTable);
 
-                int bucketNumber = HashCode(ch) % hashTable.Length;
+                int bucketNumber = GetIndex(ch, hashTable.Length);
 
-                hashTable[bucketNumber] = new HashElement(ch);
+                if (hashTable[bucketNumber] != null)
+                    hashTable = AddToHashTable(hashTable, ch);
+
+                else
+                    hashTable[bucketNumber] = new HashElement(ch);
             }
             return hashTable;
         }
@@ -73,7 +82,10 @@ namespace laba3
 
             for (int i = 0; i < hashTable.Length; i++)
             {
-                int bucket = HashCode(hashTable[i].Symbol) % newHashTable.Length;
+                if (hashTable[i] == null)
+                    continue;
+
+                int bucket = GetIndex(hashTable[i].Symbol, newHashTable.Length);
 
                 newHashTable[bucket] = hashTable[i];
             }
