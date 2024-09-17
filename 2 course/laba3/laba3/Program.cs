@@ -16,7 +16,7 @@ namespace laba3
             foreach (char ch in str)
                 hashTable = AddToHashTable(hashTable, ch);
 
-            Console.WriteLine("1");
+            PrintHashTable(hashTable);
         }
 
         class HashElement
@@ -91,6 +91,18 @@ namespace laba3
             }
 
             return newHashTable;
+        }
+
+        static void PrintHashTable(HashElement[] hashTable)
+        {
+            foreach (HashElement hashElement in hashTable)
+            {
+                if (hashElement == null)
+                    continue;
+
+                Console.WriteLine($"Буква: {hashElement.Symbol}. Количество вхождений: {hashElement.Amount}");
+            }
+
         }
     }
 }
