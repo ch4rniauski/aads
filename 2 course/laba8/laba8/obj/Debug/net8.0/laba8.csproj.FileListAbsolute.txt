@@ -1,0 +1,15 @@
+D:\university\aads\2 course\laba8\laba8\bin\Debug\net8.0\laba8.exe
+D:\university\aads\2 course\laba8\laba8\bin\Debug\net8.0\laba8.deps.json
+D:\university\aads\2 course\laba8\laba8\bin\Debug\net8.0\laba8.runtimeconfig.json
+D:\university\aads\2 course\laba8\laba8\bin\Debug\net8.0\laba8.dll
+D:\university\aads\2 course\laba8\laba8\bin\Debug\net8.0\laba8.pdb
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.AssemblyInfoInputs.cache
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.AssemblyInfo.cs
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.csproj.CoreCompileInputs.cache
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.sourcelink.json
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.dll
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\refint\laba8.dll
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.pdb
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\laba8.genruntimeconfig.cache
+D:\university\aads\2 course\laba8\laba8\obj\Debug\net8.0\ref\laba8.dll
